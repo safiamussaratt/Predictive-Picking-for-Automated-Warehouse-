@@ -154,23 +154,3 @@ python project.py
 | Natural picking flow | Unnecessary travel between distant points |
 
 ---
-
-## Project Structure
-
-```
-Predictive-Picking-Automated-Warehouse/
-│
-├── project.py         # Main implementation (600+ lines)
-├── README.md                     # This documentation
-
-│
-├── data/                         # Dataset (not tracked in Git)
-│   ├── orders.csv                   # Order metadata
-│   ├── order_products__prior.csv    # Product-order mappings
-│   ├── products.csv                 # Product catalog
-│   ├── aisles.csv                   # Aisle information
-│   └── departments.csv              # Department information
-│
-├── images/                       # Generated visualizations
-│   ├── optimized_route.png          # Optimized path plot
-│   └── baseline_route.png           # Baseline path plot
