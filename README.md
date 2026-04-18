@@ -94,15 +94,11 @@ Algorithm: Greedy Sequential A*
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/Predictive-Picking-Automated-Warehouse.git
+git clone https://github.com/safiamussaratt/Predictive-Picking-Automated-Warehouse.git
 cd Predictive-Picking-Automated-Warehouse
 ```
 
 #### 2️. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
 
 **Required Packages:**
 - `numpy` - Numerical operations
@@ -129,7 +125,7 @@ data/
 
 #### 4️. Configure Parameters (Optional)
 
-Edit these variables in `predictive_picking.py`:
+Edit these variables in `project.py`:
 
 ```python
 # Configuration Section
@@ -145,7 +141,7 @@ RANDOM_SEED = 42                # For reproducibility
 #### 5️. Run the Project
 
 ```bash
-python predictive_picking.py
+python project.py
 ```
 
 
